@@ -15,8 +15,7 @@ export default async function handler(req, res) {
         lat +
         `,` +
         lon +
-        `&key=` +
-        process.env.NEXT_PUBLIC_KEY_GOOGLE_API
+        `&key=` 
     )
       .then(res => res.json())
       .then(data => {

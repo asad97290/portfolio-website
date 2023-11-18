@@ -234,8 +234,8 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">Algorithms</span>
-                <span className="pr-4 z-10">Framer Motion</span>
-                <span className="pr-4 z-10">Tailwind CSS</span>
+                <span className="pr-4 z-10">AWS</span>
+                <span className="pr-4 z-10">Docker</span>
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">

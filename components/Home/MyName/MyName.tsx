@@ -18,7 +18,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-AAsecondary font-mono"
       >
-        Hi, my name is
+        Hello! 👋 My name is
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -29,7 +29,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Anaflous Abdellatif.
+        Asadullah Khan
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}

@@ -24,15 +24,15 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Blockchain</span>
+            Blockchain Developer
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">Dec 2020 - Dec 2021</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
-           onClick={() => window.open("https://www.trouvetavoie.io/", "_blank")}
+           onClick={() => window.open("https://www.mirindaweb.com/", "_blank")}
           >
-            www.trouvetavoie.io
+            https://www.mirindaweb.com/
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

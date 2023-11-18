@@ -20,7 +20,7 @@
 
 You can use this code for your own website, but please with attribution 😊.
 
-Please note that the design of the website is inspired from "brittanychiang.com", but didn't copied even a single piece of code from brittanyching repo, However, i built the portfolio from scratch with different technolgoies, like `Tailwind CSS` and `Framer Motion` and i added some other functionalities to it, so it might seems the same, but believe me i did a lot of work the code, website and how it works is entirely different!!!!. If you have questions about implementation, please refer to the [Next.js DOCS](https://nextjs.org/docs) same thing for Tailwind CSS and Framer Motion check out the Documentation, Or you can simply reach to me directly.
+Please note that the design of the website is inspired from "brittanychiang.com", but didn't copied even a single piece of code from brittanyching repo, However, i built the portfolio from scratch with different technolgoies, like `Docker` and `AWS` and i added some other functionalities to it, so it might seems the same, but believe me i did a lot of work the code, website and how it works is entirely different!!!!. If you have questions about implementation, please refer to the [Next.js DOCS](https://nextjs.org/docs) same thing for Docker and AWS check out the Documentation, Or you can simply reach to me directly.
 
 
 I'd like to highlight that the `This website can't be reached` trick featured on my portfolio is an `original idea` and not borrowed from any other source. It's intended as a playful element, reflecting my sense of humor. While I acknowledge that it might not be the most user-friendly approach, it's worth mentioning that my portfolio receives an average of 30-10 daily visitors. Through careful observation, I've calculated that the average reaction time is 2 seconds before users realize the playful nature of the message, at which point the content becomes accessible. It's a quirky touch meant to add a lighthearted element to the user experience.
@@ -55,7 +55,7 @@ Since i integrated some of my project into my website i'll i mention most of tec
 - Next.js
 - Nodejs
 - TypeScript
-- Tailwind CSS
+- Docker
 - framer-motion
 - Google API
 - cookie-cutter
@@ -200,7 +200,7 @@ the following endpoint will return a json object contains "quote" and "author", 
 
 MIT License
 
-Copyright (c) [2022] [Abdellatif Anaflous]
+Copyright (c) [2022] [Asadullah khan Anaflous]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -226,8 +226,8 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@abdellatif-anaflous](https://www.linkedin.com/in/abdellatif-anaflous/)
-- Website - [Abdellatif Anaflous](https://anaflous.com)
+- Linkedin - [@Asadullah khan-anaflous](https://www.linkedin.com/in/Asadullah khan-anaflous/)
+- Website - [Asadullah khan Anaflous](https://anaflous.com)
 
 [Back To The Top](#description) :
 
