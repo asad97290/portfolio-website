@@ -54,9 +54,10 @@ export default function MyName(props: { finishedLoading: boolean }) {
       >
         I&apos;m a <span className="text-AAsecondary">software engineer</span>, i possess strong problem-solving skills and
         specialize in crafting exceptional <br className="2xl:block hidden" />
-        digital experiences. My current area of focus is in the <span className="text-AAsecondary">web3 domain</span>,
+        digital experiences. My current area of focus is in the <span className="text-AAsecondary">web2 and web3 domain</span>,
         where I actively engage in developing <br className="2xl:block hidden"/>
-        and designing immersive <span className="text-AAsecondary">web3 applications</span>. This involves working with{" "}
+        and designing immersive <span className="text-AAsecondary">applications</span>. This involves working with{" "}
+        <span className="text-AAsecondary">Backend</span>  and {" "}
         <span className="text-AAsecondary">Smart Contracts</span>  on the{" "}
         <span className="text-AAsecondary">Blockchain</span>. 
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
