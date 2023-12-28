@@ -5,17 +5,13 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
+      text: "implemented and designed Architecture for Back-End of a NFT Marketplace.",
       keywords: ["NFT Marketplace"],
     },
     {
-      text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
-    },
-    {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
-      keywords: [],
-    },
+      text: "Worked on a Crypto Wallet base mobile app build using React Native, Node.js, Web3.js and MongoDb",
+      keywords: ["Crypto Wallet", "React Native", "Node.js", "Web3.js","MongoDb"],
+    }
   ];
 
   return (
