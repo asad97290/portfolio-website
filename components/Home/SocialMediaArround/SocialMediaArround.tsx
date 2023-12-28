@@ -60,6 +60,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
               y: -3,
               transition: { y: { duration: 0.1 }, rotate: { duration: 0 } },
             }}
+            
             className="mb-10"
           >
             <a href="mailto:abdellatif@anaflous.com" target={"_blank"} rel="noreferrer">
