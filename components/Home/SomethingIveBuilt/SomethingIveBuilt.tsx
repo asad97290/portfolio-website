@@ -116,13 +116,14 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://vrda1.com"} target="_blank" rel="noreferrer">
+              <a href={"https://www.buildmydapp.co/"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/vrda1.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+
+              <Img src={"/buildmydapp.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -133,7 +134,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/vrda1.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"/buildmydapp.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -143,9 +144,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://vrda1.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.buildmydapp.co/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Mirinda Web - Vrda1
+                    Build My Dapp
                   </span>
                 </a>
               </div>

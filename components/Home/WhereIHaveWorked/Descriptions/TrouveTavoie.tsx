@@ -26,9 +26,9 @@ export default function TrouveTavoie() {
           <span className="font-mono text-xs text-gray-500">Dec 2020 - Dec 2021</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
-           onClick={() => window.open("https://www.mirindaweb.com/", "_blank")}
+           onClick={() => window.open("https://www.buildmydapp.co/", "_blank")}
           >
-            https://www.mirindaweb.com/
+            https://www.buildmydapp.co/
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

@@ -41,8 +41,8 @@ export default function AboutMe(props) {
                 refine my expertise in Web and Mobile development. In the realm of{" "}
                 <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
                 advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">AKRU</span>, where I played a key role in reshaping {" "}
-                <span className="text-AAsecondary">AKRU Platform</span> , my passion for web3 and continuous
+                <span className="text-AAsecondary">Build My Dapp</span> and <span className="text-AAsecondary">AKRU</span>, where I played a key role in reshaping {" "}
+                <span className="text-AAsecondary">Web3 Products</span> , my passion for web3 and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
             </div>

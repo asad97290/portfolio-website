@@ -2,7 +2,7 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function EnsVision() {
+export default function OrbitCosmos() {
   const tasks = [
     {
       text: "Worked Crypto Wallet Solution using React.js, Solidity, Web3.js, Node.js, Infura, MongoDb",
@@ -25,17 +25,17 @@ export default function EnsVision() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Blockchain & Backend Developer
+            Blockchain Developer
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Dec 2021 - Jan 2024</span>
+          <span className="font-mono text-xs text-gray-500">Jan 2024 - Present</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
             onClick={() => window.open("https://www.akru.co/", "_blank")}
           >
-            https://akru.co
+            https://www.orbitcosmos.com/
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
