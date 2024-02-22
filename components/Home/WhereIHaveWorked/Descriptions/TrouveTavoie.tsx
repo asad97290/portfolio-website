@@ -28,7 +28,7 @@ export default function TrouveTavoie() {
            // set on click to open the website
            onClick={() => window.open("https://www.buildmydapp.co/", "_blank")}
           >
-            https://www.buildmydapp.co/
+            https://www.buildmydapp.co
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

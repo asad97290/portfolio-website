@@ -5,17 +5,17 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function OrbitCosmos() {
   const tasks = [
     {
-      text: "Worked Crypto Wallet Solution using React.js, Solidity, Web3.js, Node.js, Infura, MongoDb",
-      keywords: ["React.js", "Solidity","Infura", "Web3.js", "Node.js", "MongoDb"],
+      text: "Design and Developed Smart contract in Solidity regarding ERC20 Token, Presale/ICO and Staking",
+      keywords: ["Solidity", "ERC20 Token","Presale/ICO","Staking"],
     },
     {
-      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, mocha/chai",
-      keywords: ["hardhat", "mocha/chai"],
+      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, mocha/chai and TypeScript",
+      keywords: ["hardhat", "mocha/chai","TypeScript"],
     },
 
     {
-      text: "Collaborated closely with the team in regular meetings and interacted with smart contracts and gained expertise in Tokenization",
-      keywords: ["smart contracts", "ENS"],
+      text: "Collaborated closely with Frontend and Backend team in regular meetings and integration",
+      keywords: ["integration","meetings"],
     },
   ];
 
@@ -35,7 +35,7 @@ export default function OrbitCosmos() {
             // set on click to open the website
             onClick={() => window.open("https://www.akru.co/", "_blank")}
           >
-            https://www.orbitcosmos.com/
+            https://www.orbitcosmos.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
