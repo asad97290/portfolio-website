@@ -9,12 +9,12 @@ export default function OrbitCosmos() {
       keywords: ["Solidity", "ERC20 Token","Presale/ICO","Staking"],
     },
     {
-      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, mocha/chai and TypeScript",
-      keywords: ["hardhat", "mocha/chai","TypeScript"],
+      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, foundry, mocha/chai and TypeScript",
+      keywords: ["hardhat", "foundry","mocha/chai","TypeScript"],
     },
 
     {
-      text: "Collaborated closely with Frontend and Backend team in regular meetings and integration",
+      text: "Collaborated closely with UI/UX, Frontend and Backend team in regular meetings and integration",
       keywords: ["integration","meetings"],
     },
   ];
