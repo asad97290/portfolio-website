@@ -238,11 +238,10 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Solidity</span>
-                <span className="pr-4 z-10">Node.js</span>
-                <span className="pr-4 z-10">web3.js</span>
-                <span className="pr-4 z-10">ERC1400</span>
-                <span className="pr-4 z-10">Crypto Wallet</span>
+                <span className="pr-4 z-10">ERC20</span>
+                <span className="pr-4 z-10">NFT</span>
+                <span className="pr-4 z-10">Staking</span>
+                <span className="pr-4 z-10">Presale/ICO</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                

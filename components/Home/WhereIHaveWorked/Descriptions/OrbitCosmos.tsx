@@ -5,17 +5,17 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function OrbitCosmos() {
   const tasks = [
     {
-      text: "Design and Developed Smart contract in Solidity regarding ERC20 Token, Presale/ICO and Staking",
-      keywords: ["Solidity", "ERC20 Token","Presale/ICO","Staking"],
+      text: "Design and Developed Smart contract in Solidity regarding ERC20 Token, NFT, Presale/ICO and Staking",
+      keywords: ["Solidity", "ERC20 Token","Presale/ICO","Staking","NFT"],
     },
     {
-      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, foundry, mocha/chai and TypeScript",
-      keywords: ["hardhat", "foundry","mocha/chai","TypeScript"],
+      text: "Conducted testing tasks to ensure smart contract functionality and quality using hardhat, foundry, Solidity, mocha/chai and TypeScript",
+      keywords: ["hardhat", "foundry","mocha/chai","TypeScript","Solidity"],
     },
 
     {
       text: "Collaborated closely with UI/UX, Frontend and Backend team in regular meetings and integration",
-      keywords: ["integration","meetings"],
+      keywords: ["integration","meetings","UI/UX","Frontend","Backend"],
     },
   ];
 
