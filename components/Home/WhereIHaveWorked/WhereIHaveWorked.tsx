@@ -4,6 +4,7 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import TrouveTavoie from "./Descriptions/TrouveTavoie";
 import EnsVision from "./Descriptions/EnsVision";
 import OrbitCosmos from "./Descriptions/OrbitCosmos";
+import StackVerse from "./Descriptions/StackVerse";
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -16,9 +17,11 @@ export default function WhereIHaveWorked() {
         return <TrouveTavoie />;
       case "OrbitCosmos":
         return <OrbitCosmos />;
+      case "StackVerse":
+        return <StackVerse />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("OrbitCosmos");
+  const [DescriptionJob, setDescriptionJob] = React.useState("StackVerse");
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
       {/* // ? Title "Where I've Worked" */}
@@ -116,31 +119,40 @@ const CompaniesBar = props => {
          
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
+            CompanyName="Stack Verse"
+            BarPosition={-12}
+            BarAvobePosition={13}
+            DescriptionJob="StackVerse"
+            CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+            <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={1}
             CompanyName="Orbit Cosmos"
             BarPosition={-12}
             BarAvobePosition={1}
             DescriptionJob="OrbitCosmos"
-            CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
+            CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           
           <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={1}
+            ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="AKRU"
             BarPosition={32}
             BarAvobePosition={129}
             DescriptionJob="ENSVision"
-            CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
+            CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
 
         <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={2}
+            ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="Build My Dapp"
             BarPosition={76}
             BarAvobePosition={257}
             DescriptionJob="TrouveTavoie"
-            CompanyNameBackgroundColorGreen={[false,false, true, false, false, false]}
+            CompanyNameBackgroundColorGreen={[false,false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
 
